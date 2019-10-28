@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ActivityKedua">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:paddingTop="20dp"
+        app:srcCompat="@drawable/kenzo12" />
+
+    <EditText
+        android:id="@+id/edurl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:inputType="textPersonName"
+        android:paddingBottom="120dp"
+        android:text="URL" />
+
+    <Button
+        android:id="@+id/btn_cek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/holo_green_light"
+
+        android:text="Akses Web" />
+
+    <Button
+        android:id="@+id/btn_lihat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/holo_orange_dark"
+        android:text="LIHAT PRODUK" />
+
+    <Button
+        android:id="@+id/buttonUtama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/holo_red_dark"
+        android:text="Halaman Utama" />
+
+</LinearLayout>
